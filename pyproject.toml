@@ -1,0 +1,15 @@
+[project]
+name = "investment-committee"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-openai>=0.3.19",
+    "langchain>=0.3.25",
+    "langchain-core>=0.3.63",
+    "langchain-tavily>=0.2.0",
+    "langgraph>=0.4.8",
+    "langgraph-supervisor>=0.0.27",
+    "python-dotenv>=1.1.0",
+]

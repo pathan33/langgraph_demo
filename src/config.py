@@ -2,7 +2,7 @@
 #  MODEL CONFIGURATION
 # ===================================== #
 
-MODEL_NAME = "openai:gpt-4o-mini"
+MODEL_NAME = "openai:gpt-4.1"
 
 # ===================================== #
 #  AGENT PROMPTS
