@@ -4,15 +4,11 @@ import re
 
 load_dotenv()
 
-# =============================================================================
-# SEARCH SETUP
-# =============================================================================
-
 web_search = TavilySearch(max_results=3)
 
-# =============================================================================
-# BULL AGENT TOOLS (Optimistic/Buy-focused)
-# =============================================================================
+# ===================================== #
+#  BULL AGENT TOOLS (Optimistic/Buy)   #
+# ===================================== #
 
 
 def find_positive_news(stock_symbol: str):
@@ -77,9 +73,9 @@ def calculate_growth_potential(stock_symbol: str):
         return f"📈 {stock_symbol}: Growth data limited, but could indicate overlooked opportunity!"
 
 
-# =============================================================================
-# BEAR AGENT TOOLS (Pessimistic/Sell-focused)
-# =============================================================================
+# ===================================== #
+#  BEAR AGENT TOOLS (Pessimistic/Sell)  #
+# ===================================== #
 
 
 def find_negative_news(stock_symbol: str):
@@ -152,9 +148,9 @@ def assess_market_risks(stock_symbol: str):
         return f"⚠️ {stock_symbol}: Risk factors unclear - proceed with extreme caution!"
 
 
-# =============================================================================
-# CHAIRMAN AGENT TOOLS (Decision maker)
-# =============================================================================
+# ===================================== #
+#  CHAIRMAN AGENT TOOLS (Decision maker) #
+# ===================================== #
 
 
 def get_current_market_sentiment(stock_symbol: str):

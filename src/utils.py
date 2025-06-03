@@ -1,9 +1,5 @@
 from langchain_core.messages import convert_to_messages
 
-# =============================================================================
-# UTILITY FUNCTIONS
-# =============================================================================
-
 
 def pretty_print_message(message, indent=False):
     """Print a message with optional indentation"""
