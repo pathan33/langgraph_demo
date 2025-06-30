@@ -2,6 +2,8 @@
 
 A multi-agent system built with LangGraph that simulates an investment committee debate between bullish and bearish perspectives, with a chairman making final investment decisions.
 
+Reference Doc :- https://codecut.ai/building-multi-agent-ai-langgraph-tutorial/
+
 ## 🎯 Overview
 
 This system demonstrates true agentic behavior where three AI agents debate and make investment decisions:
